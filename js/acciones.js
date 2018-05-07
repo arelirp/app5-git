@@ -5,7 +5,7 @@ $(document).ready(function(e){
 			navigator.notification.beep(2);
 		});//cierre del tap de beep
 		$('#vibrar').tap(function(){
-			navigator.totification.vibrate(2000);
+			navigator.notification.vibrate(2000);
 		});//cierre del tap de vibrar
 	},false);//cierre del EventListener
 });//cierre de la funcion principal
